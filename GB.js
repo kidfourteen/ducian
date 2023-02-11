@@ -43,7 +43,7 @@ async function watchEvent() {
 
 //Check GFT
 async function checkBalanceGFT() {
-   GalaxyToken
+   //GalaxyToken
   const addressToken = process.env.GALAXY_TOKEN;
   const contractToken = new ethers.Contract(addressToken, GalaxyTokenABI, wallet);
 
